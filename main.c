@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
     SOCKET sockfd;
     struct sockaddr_in serv_addr;
     char buffer[256];
-    char *address = "192.168.1.7"; // Server IP address
+    char *address = "172.20.10.5"; // Server IP address
     int port = 500; // Server port
 
     // Initialize Winsock
